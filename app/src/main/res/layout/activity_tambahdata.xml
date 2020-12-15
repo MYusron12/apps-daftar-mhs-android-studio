@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tambahdata">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="177dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="-26dp"
+        android:layout_marginBottom="83dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_sahabatbelajar" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="416dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/boldprimaryfont"
+        android:text="Tambah Mahasiswa"
+        android:textColor="@color/bluefavorite"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="399dp"
+        android:layout_height="516dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/bg_form"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="202dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/primaryfont"
+                    android:text="Upload Foto Profile"
+                    android:textColor="@color/bluefavorite"
+                    android:textSize="21sp" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/uploadicon"
+                    android:layout_marginLeft="100dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:textSize="28sp"
+                    android:textColor="@color/bluefavorite"
+                    android:text="Nama"/>
+
+                <EditText
+                    android:layout_width="240dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/bg_input_edit"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:text="NIM"
+                    android:textColor="@color/bluefavorite"
+                    android:textSize="28sp" />
+
+                <EditText
+                    android:layout_width="240dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/bg_input_edit"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:textSize="28sp"
+                    android:textColor="@color/bluefavorite"
+                    android:text="Jurusan"/>
+
+                <EditText
+                    android:layout_width="240dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/bg_input_edit"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:textSize="28sp"
+                    android:textColor="@color/bluefavorite"
+                    android:text="Alamat"/>
+
+                <EditText
+                    android:layout_width="240dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/bg_input_edit"/>
+            </LinearLayout>. <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="112dp"
+                android:layout_height="41dp"
+                android:textSize="28sp"
+                android:textColor="@color/bluefavorite"
+                android:text="Hobi"/>
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/bg_input_edit"/>
+        </LinearLayout>. <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="112dp"
+                android:layout_height="41dp"
+                android:textSize="28sp"
+                android:textColor="@color/bluefavorite"
+                android:text="Cita-cita"/>
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/bg_input_edit"/>
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/simpanTambah"
+        android:layout_width="207dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/btn"
+        android:text="Simpan"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="516dp"
+        android:src="@drawable/bighome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/ivprofile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:src="@drawable/bigprofil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="517dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:src="@drawable/bigsetting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

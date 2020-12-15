@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">sahabatBelajar()</string>
+
+    <!--    string welcom-->
+    <string name="welcome_">welcome !</string>
+    <string name="username_label">username</string>
+    <string name="password_label">password</string>
+    <string name="email_abel">email</string>
+    <string name="user_login">yusron</string>
+
+</resources>
