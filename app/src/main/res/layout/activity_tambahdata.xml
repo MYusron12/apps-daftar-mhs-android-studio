@@ -83,7 +83,9 @@
                     android:textColor="@color/bluefavorite"
                     android:text="Nama"/>
 
+<!--                input data disini-->
                 <EditText
+                    android:id="@+id/ettambahnama"
                     android:layout_width="240dp"
                     android:layout_height="64dp"
                     android:layout_marginLeft="0dp"
@@ -101,7 +103,9 @@
                     android:textColor="@color/bluefavorite"
                     android:textSize="28sp" />
 
+<!--                input data disini-->
                 <EditText
+                    android:id="@+id/ettambahnim"
                     android:layout_width="240dp"
                     android:layout_height="64dp"
                     android:layout_marginLeft="0dp"
@@ -118,7 +122,9 @@
                     android:textColor="@color/bluefavorite"
                     android:text="Jurusan"/>
 
+<!--                input data disini-->
                 <EditText
+                    android:id="@+id/ettambahjurusan"
                     android:layout_width="240dp"
                     android:layout_height="64dp"
                     android:layout_marginLeft="0dp"
@@ -135,7 +141,9 @@
                     android:textColor="@color/bluefavorite"
                     android:text="Alamat"/>
 
+<!--                input data disini-->
                 <EditText
+                    android:id="@+id/ettambahalamat"
                     android:layout_width="240dp"
                     android:layout_height="64dp"
                     android:layout_marginLeft="0dp"
@@ -151,7 +159,9 @@
                 android:textColor="@color/bluefavorite"
                 android:text="Hobi"/>
 
+<!--                input data disini-->
             <EditText
+                android:id="@+id/ettambahhobi"
                 android:layout_width="240dp"
                 android:layout_height="64dp"
                 android:layout_marginLeft="0dp"
@@ -167,7 +177,9 @@
                 android:textColor="@color/bluefavorite"
                 android:text="Cita-cita"/>
 
+<!--                input data disini-->
             <EditText
+                android:id="@+id/ettambahcitacita"
                 android:layout_width="240dp"
                 android:layout_height="64dp"
                 android:layout_marginLeft="0dp"

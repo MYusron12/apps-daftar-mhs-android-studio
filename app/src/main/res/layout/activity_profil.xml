@@ -80,14 +80,17 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <TextView
                     android:layout_width="112dp"
                     android:layout_height="41dp"
-                    android:textSize="28sp"
+                    android:text="Nama"
                     android:textColor="@color/bluefavorite"
-                    android:text="Nama"/>
+                    android:textSize="28sp" />
 
+                <!--menampilkan teks secara dinamis dari db, berupa detail mahasiswa-->
                 <EditText
+                    android:id="@+id/etisinama"
                     android:layout_width="238dp"
                     android:layout_height="64dp"
                     android:layout_marginLeft="0dp"
@@ -95,10 +98,11 @@
                     android:hint="Muhammad Yusron"
                     android:textColorHint="@color/bluefavorite" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
 
                 <TextView
                     android:layout_width="112dp"
@@ -107,88 +111,110 @@
                     android:textColor="@color/bluefavorite"
                     android:textSize="28sp" />
 
+                <!--menampilkan teks secara dinamis dari db, berupa detail mahasiswa-->
                 <EditText
+                    android:id="@+id/etisinim"
                     android:layout_width="238dp"
                     android:layout_height="64dp"
                     android:layout_marginLeft="0dp"
                     android:background="@drawable/field_daftar_mhs"
                     android:hint="18050001"
-                    android:textColorHint="@color/bluefavorite"/>
+                    android:textColorHint="@color/bluefavorite" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
                 <TextView
                     android:layout_width="112dp"
                     android:layout_height="41dp"
-                    android:textSize="28sp"
+                    android:text="Jurusan"
                     android:textColor="@color/bluefavorite"
-                    android:text="Jurusan"/>
+                    android:textSize="28sp" />
 
+                <!--menampilkan teks secara dinamis dari db, berupa detail mahasiswa-->
                 <EditText
+                    android:id="@+id/etisijurusan"
                     android:layout_width="238dp"
                     android:layout_height="64dp"
                     android:layout_marginLeft="0dp"
                     android:background="@drawable/field_daftar_mhs"
                     android:hint="Sistem Informasi"
-                    android:textColorHint="@color/bluefavorite"/>
+                    android:textColorHint="@color/bluefavorite" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
                 <TextView
                     android:layout_width="112dp"
                     android:layout_height="41dp"
-                    android:textSize="28sp"
+                    android:text="Alamat"
                     android:textColor="@color/bluefavorite"
-                    android:text="Alamat"/>
+                    android:textSize="28sp" />
 
+                <!--menampilkan teks secara dinamis dari db, berupa detail mahasiswa-->
                 <EditText
+                    android:id="@+id/etisialamat"
                     android:layout_width="238dp"
                     android:layout_height="64dp"
                     android:layout_marginLeft="0dp"
                     android:background="@drawable/field_daftar_mhs"
                     android:hint="Bogor"
-                    android:textColorHint="@color/bluefavorite"/>
-            </LinearLayout>. <LinearLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="112dp"
-                android:layout_height="41dp"
-                android:textSize="28sp"
-                android:textColor="@color/bluefavorite"
-                android:text="Hobi"/>
+                    android:textColorHint="@color/bluefavorite" />
+            </LinearLayout>
 
-            <EditText
-                android:layout_width="238dp"
-                android:layout_height="64dp"
-                android:layout_marginLeft="0dp"
-                android:background="@drawable/field_daftar_mhs"
-                android:hint="Memancing"
-                android:textColorHint="@color/bluefavorite"/>
-        </LinearLayout>. <LinearLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="112dp"
-                android:layout_height="41dp"
-                android:textSize="28sp"
-                android:textColor="@color/bluefavorite"
-                android:text="Cita-cita"/>
 
-            <EditText
-                android:layout_width="238dp"
-                android:layout_height="64dp"
-                android:layout_marginLeft="0dp"
-                android:background="@drawable/field_daftar_mhs"
-                android:hint="Presiden"
-                android:textColorHint="@color/bluefavorite"/>
-        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:text="Hobi"
+                    android:textColor="@color/bluefavorite"
+                    android:textSize="28sp" />
+
+                <!--menampilkan teks secara dinamis dari db, berupa detail mahasiswa-->
+                <EditText
+                    android:id="@+id/etisihobi"
+                    android:layout_width="238dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/field_daftar_mhs"
+                    android:hint="Memancing"
+                    android:textColorHint="@color/bluefavorite" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="41dp"
+                    android:text="Cita-cita"
+                    android:textColor="@color/bluefavorite"
+                    android:textSize="28sp" />
+
+                <!--menampilkan teks secara dinamis dari db, berupa detail mahasiswa-->
+                <EditText
+                    android:id="@+id/etisicitacita"
+                    android:layout_width="238dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/field_daftar_mhs"
+                    android:hint="Presiden"
+                    android:textColorHint="@color/bluefavorite" />
+            </LinearLayout>
 
         </LinearLayout>
 
